@@ -10,5 +10,9 @@ The source of my data is New York's Open data platform. Data can be accessed via
 Summary analysis: the most common cuisine of all restaurant types in the boroughs is American, followed by Chinese. Queens majorly favors Chinese above all others.
 
 <img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesallboros.png>
+<img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesbk.png>
+<img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesqn.png>
+<img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesmh.png>
+<img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesbx.png>
+<img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypessi.png>
 
-CONTINUE
