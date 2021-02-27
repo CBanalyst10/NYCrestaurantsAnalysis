@@ -29,3 +29,56 @@ Owners would want their scores to be lower as scores are a sum of violation coun
 
 <img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/hsa.png>
 
+## Hypothesis testing against p-values
+I proposed that eating anywhere in New York should not differ significantly. Although this seemed mostly true there were exceptions.
+
+Using the module Scipy to produce a variety of test results across a variety of cohorts, I was able to perform measures across multiple group pairs.
+
+### Mann Whitney U tests
+#### Grade Aggregates
+Grades given after inspections are A, B, C, P, N, G, and Z. A, B, and C are direct health ratings while P, N, G, and Z generally mean a grade was not delivered, thus a future reassessment visit is pending. For simplicity and lack of time I have aggregated the letter grades into distict numerical scores. A is worth 3 points, B is worth 2 points, C is worth 1 point, and all others are rated for 0 points in this brief analysis.
+
+Although most p-values were low and thus the comparison between these boroughs resulted in us keeping the null hypothesis that these grade scores are not significantly different, the comparison of Bronx to Staten Island revealed a significant difference of grade aggregate score.
+
+Brooklyn v Queens
+MannwhitneyuResult(statistic=4483083938.0, pvalue=2.340965345856826e-06)
+
+Brooklyn v Manhattan
+MannwhitneyuResult(statistic=7798981557.0, pvalue=0.002894214267661095)
+
+Brooklyn v Bronx
+MannwhitneyuResult(statistic=1801184452.5, pvalue=0.0005274865246170486)
+
+Brooklyn v Staten Island
+MannwhitneyuResult(statistic=653929991.0, pvalue=2.186457974405724e-07)
+
+Queens v Manhattan
+MannwhitneyuResult(statistic=6966581755.0, pvalue=0.009563484151986884)
+
+Queens v Bronx
+MannwhitneyuResult(statistic=1623721612.5, pvalue=0.4237846029112684)
+
+Queens v Staten Island
+MannwhitneyuResult(statistic=590206408.5, pvalue=0.002910983365737641)
+
+Bronx v Staten Island
+MannwhitneyuResult(statistic=2799153181.0, pvalue=0.06594103012805569)
+
+#### Scores
+Scores are a numerical count of health violations, though not necessarily their severity. An analysis of these show a general comparison across boroughs..
+
+Brooklyn v Queens
+
+Brooklyn v Manhattan
+
+Brooklyn v Bronx
+
+Brooklyn v Staten Island
+
+Queens v Manhattan
+
+Queens v Bronx
+
+Queens v Staten Island
+
+Bronx v Staten Island
