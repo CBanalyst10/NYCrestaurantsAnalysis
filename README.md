@@ -7,7 +7,8 @@ The source of my data is New York's Open data platform. Data can be accessed via
 
 # Analysis
 
-Summary analysis: the most common cuisine of all restaurant types in the boroughs is American, followed by Chinese. Queens majorly favors Chinese above all others.
+## Cuisines across all boroughs
+The most common cuisine of all restaurant types in the boroughs is American, followed by Chinese. Queens majorly favors Chinese above all others.
 
 <img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesallboros.png>
 <img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesbk.png>
@@ -15,3 +16,16 @@ Summary analysis: the most common cuisine of all restaurant types in the borough
 <img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesmh.png>
 <img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypesbx.png>
 <img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/ctypessi.png>
+
+
+## Most frequently seen words in violation reports
+<img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/wcabv.png>
+
+## Most common score of violations across all restaurants, versus Grade A
+
+Owners would want their scores to be lower as scores are a sum of violation count, but not their severity. Thus it is possible to have a low score and still have a serious enough violation to get a closure. Likewise it is possible to have a fair amount of violations and get a Grade A so long as they're minor.
+
+<img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/hsallg.png>
+
+<img src = https://github.com/CBanalyst10/NYCrestaurantsAnalysis/blob/main/img/hsa.png>
+
