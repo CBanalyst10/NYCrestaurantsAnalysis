@@ -7,6 +7,9 @@ The source of my data is New York's Open data platform. Data can be accessed via
 
 # Analysis
 
+## Count of Restaurants across all boroughs
+Manhattan has the most restaurants, with Brooklyn and Queens following closely behind as expected.
+
 ## Cuisines across all boroughs
 The most common cuisine of all restaurant types in the boroughs is American, followed by Chinese. Queens majorly favors Chinese above all others.
 
