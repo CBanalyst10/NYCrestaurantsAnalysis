@@ -41,44 +41,86 @@ Grades given after inspections are A, B, C, P, N, G, and Z. A, B, and C are dire
 Although most p-values were low and thus the comparison between these boroughs resulted in us keeping the null hypothesis that these grade scores are not significantly different, the comparison of Bronx to Staten Island revealed a significant difference of grade aggregate score.
 
 Brooklyn v Queens
+
 MannwhitneyuResult(statistic=4483083938.0, pvalue=2.340965345856826e-06)
 
+
 Brooklyn v Manhattan
+
 MannwhitneyuResult(statistic=7798981557.0, pvalue=0.002894214267661095)
 
+
 Brooklyn v Bronx
+
 MannwhitneyuResult(statistic=1801184452.5, pvalue=0.0005274865246170486)
 
+
 Brooklyn v Staten Island
+
 MannwhitneyuResult(statistic=653929991.0, pvalue=2.186457974405724e-07)
 
+
 Queens v Manhattan
+
 MannwhitneyuResult(statistic=6966581755.0, pvalue=0.009563484151986884)
 
+
 Queens v Bronx
+
 MannwhitneyuResult(statistic=1623721612.5, pvalue=0.4237846029112684)
 
+
 Queens v Staten Island
+
 MannwhitneyuResult(statistic=590206408.5, pvalue=0.002910983365737641)
 
+
 Bronx v Staten Island
+
 MannwhitneyuResult(statistic=2799153181.0, pvalue=0.06594103012805569)
 
+
 #### Scores
-Scores are a numerical count of health violations, though not necessarily their severity. An analysis of these show a general comparison across boroughs..
+Scores are a numerical count of health violations, though not necessarily their severity. Comparing violation scores within a Mann-Whitney U-test shows statistically significant differences between the Brooklyn-Manhattan, Queens-Bronx, Queens-Staten-Island, and Bronx-Staten Island
 
 Brooklyn v Queens
 
+MannwhitneyuResult(statistic=4027761290.0, pvalue=6.279700273260612e-10)
+
+
 Brooklyn v Manhattan
+
+MannwhitneyuResult(statistic=7063251831.5, pvalue=0.07291172955343204)
+
 
 Brooklyn v Bronx
 
+MannwhitneyuResult(statistic=1633356266.0, pvalue=0.00022866041586911854)
+
+
 Brooklyn v Staten Island
+
+MannwhitneyuResult(statistic=593789637.0, pvalue=0.00021761478432325465)
+
 
 Queens v Manhattan
 
+MannwhitneyuResult(statistic=6247632696.5, pvalue=5.41108915663237e-16)
+
+
 Queens v Bronx
+
+MannwhitneyuResult(statistic=1482260416.5, pvalue=0.1603084485152904)
+
 
 Queens v Staten Island
 
+MannwhitneyuResult(statistic=543026556.0, pvalue=0.32130699230651416)
+
+
 Bronx v Staten Island
+
+MannwhitneyuResult(statistic=2532442622.0, pvalue=8.385718703075684e-07)
+
+
+
