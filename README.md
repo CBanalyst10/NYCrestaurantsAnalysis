@@ -36,7 +36,7 @@ Using the module Scipy to produce a variety of test results across a variety of 
 
 ### Mann Whitney U tests
 #### Grade Aggregates
-Grades given after inspections are A, B, C, P, N, G, and Z. A, B, and C are direct health ratings while P, N, G, and Z generally mean a grade was not delivered, thus a future reassessment visit is pending. For simplicity and lack of time I have aggregated the letter grades into distict numerical scores. A is worth 3 points, B is worth 2 points, C is worth 1 point, and all others are rated for 0 points in this brief analysis.
+Grades given after inspections are A, B, C, P, N, G, and Z. A, B, and C are direct health ratings while P, N, G, and Z generally mean a future reassessment visit is pending. Restaurants who fail an inspection and don't compete well in a court of law to revise their score can have an inspection scheduled in the future to re-open their business. For simplicity and lack of time I have aggregated the letter grades into distict numerical scores. A is worth 3 points, B is worth 2 points, C is worth 1 point, and all others are rated for 0 points in this brief analysis.
 
 Although most p-values were low and thus the comparison between these boroughs resulted in us keeping the null hypothesis that these grade scores are not significantly different, the comparison of Bronx to Staten Island revealed a significant difference of grade aggregate score.
 
